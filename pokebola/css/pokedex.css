@@ -1,0 +1,211 @@
+
+
+.containerpokedex{
+   
+    display: flex;
+    justify-content: space-around;
+       
+       text-align: center;
+       flex-wrap: wrap;
+       background-image: linear-gradient( 174.2deg,  rgb(238, 227, 210) 7.1%, rgb(226, 233, 223) 67.4% );
+    
+}
+.title{
+    /* font-weight: bold; */
+    color:rgb(201, 15, 2);
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px 40px;
+}
+.pokemontitle{
+   display: flex;
+   justify-content: center;
+   margin: 70px;
+}
+
+.pokemon{
+    width: 200px;
+    height: auto;
+    border: solid 2px rgb(138, 136, 136);
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 9px;
+
+
+}
+.pokemon:hover{
+       box-shadow: 4px 4px 3px rgba(107, 105, 105, 0.7); 
+       border: solid 3px rgb(138, 136, 136);
+}
+.imgpokemon{
+    width: 130px;
+    height: 130px;
+}
+.detalle-pokemon{
+    margin: 10px ;
+}
+.idpokemon{
+    margin: 0px 5px;
+    text-align: start;
+    color: rgb(156, 161, 165);
+}
+.detalle-pokemon{
+    background-color: rgb(14, 89, 150);
+    color: white;
+   border-radius: 6px;
+   width: 180px;
+   height: 30px;
+   border: none;
+ font-family: sans-serif Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   cursor: pointer;
+   margin: 27px 10px;
+
+ 
+}
+.agua{
+    background-color:rgb(4, 67, 119) ;
+ 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 50px;
+    font-family: sans-serif;
+    padding: 8px;
+}
+.agua:hover{
+    background-color: aquamarine;
+}
+.tierra{
+    background-color:rgb(116, 60, 8) ;
+ 
+    color: rgb(255, 253, 251);
+    font-weight: bold;
+    border-radius: 50px;
+    font-family: sans-serif;
+    padding: 8px;
+}
+.tierra:hover{
+    background-color: rgb(66, 34, 3);
+}
+.aire{
+    background-color:rgb(98, 130, 190) ;
+ 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 50px;
+    font-family: sans-serif;
+    padding: 8px;
+}
+.aire:hover{
+    background-color: aquamarine;
+}
+.fuego{
+    background-color:rgb(243, 152, 32) ;
+ 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 50px;
+    font-family: sans-serif;
+    padding: 8px;
+}
+.fuego:hover{
+    background-color: rgb(143, 61, 7);
+}
+.veneno{
+    background-color:rgb(53, 5, 68) ;
+ 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 50px;
+    font-family: sans-serif;
+    padding: 8px;
+}
+
+.planta{
+    background-color:rgb(33, 95, 20) ;
+ 
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    font-family: sans-serif;
+    padding: 8px;
+}
+.namepokemon{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.veneno:hover{
+    background-color: rgb(123, 41, 182);
+}
+.planta:hover{
+    background-color: green;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 50px;
+    font-size: 24px;
+
+}
+.Anterior{
+    background-color: rgb(38, 38, 172);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    margin: 0px 50px;
+    border-radius: 10px;
+
+}
+.Siguiente{
+    background-color: rgb(38, 38, 172);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin: 0px 50px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+.Siguiente:hover{
+    background-color: aqua;
+    color: black;
+
+}
+.Anterior:hover{
+    background-color: aqua;
+    color: black;
+}
+@media (max-width: 600px) {
+    .pokemon{
+        width: 180px;
+        height: auto;
+        margin: 10px 2px;
+    }
+  .Siguiente{
+   font-size: 30px;
+   padding: 10px;
+   margin: 0px 10px;
+
+  }
+  .containerpokedex{
+    
+    flex-wrap: wrap;
+    display: flex;
+    /* flex-direction: row; */
+  }
+  .Anterior{
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px 10px;
+  }
+  .imgpokemon {
+    width: 100px;
+    height: 100px;
+}
+.detalle-pokemon{
+    width: auto;
+}
+}
